@@ -7,6 +7,12 @@
 
 > 여기서 발생하는 오류 환경 관련 문제로, 대부분 인터넷 검색으로 쉽게 해결 가능함.
 
+### 코드 다운로드
+
+[코드 페이지](https://github.com/ga111o/jeil-docs-gpt/tree/main)
+
+위 페이지 우상단에 `<> Code` - `Download ZIP` 클릭 후 원하는 폴더에서 압축 풀기
+
 ### 코드 수정
 
 `/pages/DOCS.py`에서 코드 수정 필요.
