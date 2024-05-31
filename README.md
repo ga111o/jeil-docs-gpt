@@ -2,12 +2,15 @@
 
 [youtube](https://youtu.be/ONHblOZc1iY)
 
+---
 
 ### 코드 다운로드
 
 [코드 페이지](https://github.com/ga111o/jeil-docs-gpt/tree/main)
 
 위 페이지 우상단에 `<> Code` - `Download ZIP` 클릭 후 원하는 폴더에서 압축 풀기
+
+---
 
 ### 코드 수정
 
