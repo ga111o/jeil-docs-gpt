@@ -1,5 +1,7 @@
 ### jeil-docs-gpt
 
+[youtube](https://youtu.be/ONHblOZc1iY)
+
 > 2번부터는 모두 해당 디렉토리에서 진행.<br>
 > Windows 명령어의 경우 다를 수도 있음. 명령어가 안되거나 할 경우 인터넷 검색으로 해결.
 
