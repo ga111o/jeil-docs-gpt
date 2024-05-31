@@ -117,7 +117,7 @@ prompt = ChatPromptTemplate.from_messages(
         (
             "system",
             """
-            Answer the question using ONLY the following context. If you don't know the answer just say you don't know. DON'T make anything up.
+            Answer the question using the following context. If you don't know the answer just say you don't know.
             
             Context: {context}
             """,
