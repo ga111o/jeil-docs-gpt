@@ -52,3 +52,4 @@
 
 - tips:
   - 만약 한국어 논문 등을 돌리고 싶다면 [kollama](https://huggingface.co/fiveflow/KoLlama-3-8B-Instruct) 모델을 사용하는 것을 추천함.
+  - 뜬금없는 답변이 나오는 등 이상한 결과가 나온다면 더 좋은 모델을 사용하거나, 프롬프트(main.py의 line 11x의 prompt)를 수정하는 것이 필요
