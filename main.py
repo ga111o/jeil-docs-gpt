@@ -10,7 +10,7 @@ from langchain.callbacks.base import BaseCallbackHandler
 import streamlit as st
 
 st.set_page_config(
-    page_title="JEIL DOCS GPT",
+    page_title="귀찮은나를대신해서",
     page_icon="📃",
 )
 
@@ -127,7 +127,7 @@ prompt = ChatPromptTemplate.from_messages(
 )
 
 
-st.title("hello jeil!")
+st.title("논문을읽어주는착한친구")
 
 
 with st.sidebar:
