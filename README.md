@@ -1,19 +1,29 @@
 ### jeil-docs-gpt
 
-> 2번부터는 모두 해당 디렉토리에서 진행.<br>
-> Windows 명령어의 경우 다를 수도 있음. 명령어가 안되거나 할 경우 인터넷 검색으로 해결.
+[youtube](https://youtu.be/ONHblOZc1iY)
 
-> 여기서 발생하는 오류 환경 관련 문제로, 대부분 인터넷 검색으로 쉽게 해결 가능함.
+---
+
+### 코드 다운로드
+
+[코드 페이지](https://github.com/ga111o/jeil-docs-gpt/tree/main)
+
+위 페이지 우상단에 `<> Code` - `Download ZIP` 클릭 후 원하는 폴더에서 압축 풀기
+
+---
 
 ### 코드 수정
 
-`/pages/DOCS.py`에서 코드 수정 필요.
+`/pages/main.py`에서 코드 수정 필요.
 
 해당 파일에서 주석처리된 부분 3개 확인.
 
 ---
 
 ### 설치 및 구동
+
+> 2번부터는 모두 해당 디렉토리에서 진행.<br>
+> Windows 명령어의 경우 다를 수도 있음. 명령어가 안되거나 할 경우 인터넷 검색으로 해결.
 
 1. 파이썬 3.11.x 버전 확인
 
@@ -42,3 +52,4 @@
 
 - tips:
   - 만약 한국어 논문 등을 돌리고 싶다면 [kollama](https://huggingface.co/fiveflow/KoLlama-3-8B-Instruct) 모델을 사용하는 것을 추천함.
+  - 뜬금없는 답변이 나오는 등 이상한 결과가 나온다면 더 좋은 모델을 사용하거나, 프롬프트(main.py의 line 11x의 prompt)를 수정하는 것이 필요

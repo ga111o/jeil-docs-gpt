@@ -52,19 +52,20 @@ class ChatCallbackHandler(BaseCallbackHandler):
 #################
 # chat gpt 유료버전을 사용할 수 없는 상황이라면
 # https://ollama.com/download 에서 다운로드 및 설치 후,
-# https://ollama.com/library 에서 원하는 모델 (llama3:8b 추천,   만약 vram 8gb 이상의 nvidia 그래픽카드라면 llama3:70b 추천) 설치
+# https://ollama.com/library 에서 원하는 모델 (llama3:8b 추천,   만약 vram 12gb 이상의 nvidia 그래픽카드라면 llama3:70b 추천) 설치
+# llama3의 경우, 한국어 결과는 상당히 안좋음. README.md의 tips 참고.
 # 다 되었다면 아래 코드블록 해제
 #################
-llm = ChatOllama(
-    model = "llama3:8b",      # model = "llama3:70b"
-    temperature=0.1,
-    streaming=True,
-    callbacks=[
-        ChatCallbackHandler(),
-    ]
-)
-
-embed = OllamaEmbeddings(model = "llama3:8b")     # (model = "llama3:70b")
+# llm = ChatOllama(
+#    model = "llama3:8b",      # model = "llama3:70b"
+#    temperature=0.1,
+#    streaming=True,
+#    callbacks=[
+#        ChatCallbackHandler(),
+#    ]
+# )
+# 
+# embed = OllamaEmbeddings(model = "llama3:8b")     # (model = "llama3:70b")
 
 
 
